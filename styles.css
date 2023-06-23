@@ -1,20 +1,20 @@
-.green{
-    height: 100px;
-    width: 100px;
-    background-color: green;
+.holder{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
 }
-.red{
-    height: 100px;
-    width: 100px;
-    background-color: red;
+.item-3{
+	width:90px;
+	height:90px;
+	background-color:green;
 }
-.blue{
-    height: 100px;
-    width: 100px;
-    background-color: blue;
+.item-1{
+	width:90px;
+	height:90px;
+	background-color:red;
 }
-div.holder{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.item-2{
+	width:90px;
+	height:90px;
+	background-color:blue;
 }
